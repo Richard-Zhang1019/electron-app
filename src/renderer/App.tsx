@@ -9,6 +9,8 @@ function Hello() {
         <img width="200" alt="icon" src={icon} />
       </div>
       <h1>electron-react-boilerplate</h1>
+      <strong id="theme-source">System</strong>
+      <button onClick={() => window.darkMode.toggle()}>Toggle Mode</button>
       <div className="Hello">
         <a
           href="https://electron-react-boilerplate.js.org/"
